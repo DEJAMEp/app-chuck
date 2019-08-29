@@ -1,0 +1,12 @@
+#!/bin/bash
+#Agregar todos los archivos al commit
+git add .
+
+#Hacer Commit
+git commit -m "Este es un commit automatico"
+
+#pushear commit al repositorio remoto
+git push origin master
+
+#Mostrar status
+git status
